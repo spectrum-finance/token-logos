@@ -2,38 +2,27 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="75.5765mm"
-   height="64.394051mm"
-   viewBox="0 0 75.5765 64.394051"
+   width="87.90583mm"
+   height="86.160789mm"
+   viewBox="0 0 87.90583 86.16079"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   sodipodi:docname="115_2.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview7"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="true"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="0.92172518"
-     inkscape:cx="51.533799"
-     inkscape:cy="251.70192"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
   <defs
      id="defs2">
+    <linearGradient
+       id="linearGradient7675">
+      <stop
+         style="stop-color:#64afaf;stop-opacity:1;"
+         offset="0"
+         id="stop7671" />
+      <stop
+         style="stop-color:#64afaf;stop-opacity:0;"
+         offset="1"
+         id="stop7673" />
+    </linearGradient>
     <rect
        x="-283"
        y="417"
@@ -46,38 +35,51 @@
        width="735.16174"
        height="458.28265"
        id="rect2039" />
+    <linearGradient
+       xlink:href="#linearGradient7675"
+       id="linearGradient10151"
+       x1="56.679691"
+       y1="188.35435"
+       x2="144.58553"
+       y2="188.35435"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-61.660105,-104.59257)">
+     transform="translate(-56.679692,-145.27396)">
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.399"
+       id="ellipse7646"
+       cx="100.63261"
+       cy="188.35435"
+       rx="42.753414"
+       ry="41.880894" />
+    <ellipse
+       style="opacity:1;fill:url(#linearGradient10151);fill-opacity:1;stroke:#000000;stroke-width:2.399"
+       id="path852"
+       cx="100.63261"
+       cy="188.35435"
+       rx="42.753414"
+       ry="41.880894" />
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,146.69025,50.882812)"
-       id="text2037"
-       style="font-style:normal;font-weight:normal;font-size:133.333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect2039);fill:#000000;fill-opacity:1;stroke:none"><tspan
-         x="-276.87891"
-         y="378.06365"
-         id="tspan45556"><tspan
-           style="font-weight:bold;font-family:Calibri;-inkscape-font-specification:'Calibri Bold'"
-           id="tspan45554">115</tspan></tspan></text>
-    <rect
-       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.32323;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
-       id="rect11417"
-       width="73.253273"
-       height="62.07082"
-       x="62.82172"
-       y="105.75419" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.44410083,0,0,0.36465944,191.38971,-45.119255)"
+       transform="matrix(0.44410082,0,0,0.36465944,203.02329,1.9967518)"
        id="text14204"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.0913px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;white-space:pre;shape-inside:url(#rect14206);fill:#000000;fill-opacity:1;stroke:none"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.1044px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;white-space:pre;shape-inside:url(#rect14206);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="-283"
-         y="459.95489"
-         id="tspan45560"><tspan
+         y="466.09135"
+         id="tspan10171"><tspan
            style="font-weight:bold;-inkscape-font-specification:'Calibri Bold'"
-           id="tspan45558">E</tspan></tspan></text>
+           id="tspan10169">E</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,150.47116,106.724)"
+       id="text2037"
+       style="font-style:normal;font-weight:normal;font-size:120px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect2039);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="-276.87891"
+         y="365.89956"
+         id="tspan10175"><tspan
+           style="font-weight:bold;font-family:Calibri;-inkscape-font-specification:'Calibri Bold'"
+           id="tspan10173">115</tspan></tspan></text>
   </g>
 </svg>
