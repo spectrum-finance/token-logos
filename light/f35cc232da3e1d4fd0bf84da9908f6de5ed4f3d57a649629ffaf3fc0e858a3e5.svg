@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="75.5765mm"
+   height="64.394051mm"
+   viewBox="0 0 75.5765 64.394051"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="115_2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.92172518"
+     inkscape:cx="51.533799"
+     inkscape:cy="251.70192"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="-283"
+       y="417"
+       width="139"
+       height="180"
+       id="rect14206" />
+    <rect
+       x="-276.87909"
+       y="256.42004"
+       width="735.16174"
+       height="458.28265"
+       id="rect2039" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-61.660105,-104.59257)">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,146.69025,50.882812)"
+       id="text2037"
+       style="font-style:normal;font-weight:normal;font-size:133.333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect2039);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="-276.87891"
+         y="378.06365"
+         id="tspan45556"><tspan
+           style="font-weight:bold;font-family:Calibri;-inkscape-font-specification:'Calibri Bold'"
+           id="tspan45554">115</tspan></tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.32323;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect11417"
+       width="73.253273"
+       height="62.07082"
+       x="62.82172"
+       y="105.75419" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.44410083,0,0,0.36465944,191.38971,-45.119255)"
+       id="text14204"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.0913px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;white-space:pre;shape-inside:url(#rect14206);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="-283"
+         y="459.95489"
+         id="tspan45560"><tspan
+           style="font-weight:bold;-inkscape-font-specification:'Calibri Bold'"
+           id="tspan45558">E</tspan></tspan></text>
+  </g>
+</svg>
