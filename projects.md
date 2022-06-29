@@ -19,3 +19,5 @@ Add project details about the token, website, social links, etc.
 | [ErgoGames.io](https://explorer.ergoplatform.com/en/token/00b1e236b60b95c2c6f8007a9d89bc460fc9e78f98b09faec9449007b40bccf3) | Official token of ErgoGames.io | [ErgoGames.io](https://ergogames.io) | [ErgoGames.io Twitter](https://twitter.com/ErgoGamesio) |
 | [EXLE](https://explorer.ergoplatform.com/en/token/007fd64d1ee54d78dd269c8930a38286caa28d3f29d27cadcb796418ab15c283) | Official token of Ergo-Lend | [Ergo-Lend Website](https://www.ergolend.org/) | [Twitter](https://twitter.com/ErgoLend), [Discord](https://discord.gg/fe8b3dzK3C), [Telegram](https://t.me/ErgoLend) |
 
+| [THz](https://explorer.ergoplatform.com/en/token/02f31739e2e4937bb9afb552943753d1e3e9cdd1a5e5661949cb0cef93f907ea) | Official token of Swamp Audio | [Swamp Audio Website](https://swamp.audio/) | [Twitter](https://twitter.com/swampoflife), [Instagram](https://instagram.com/swamp.of.life), [Soundcloud](https://soundcloud.com/swamp-music-1), [Spotify](https://open.spotify.com/show/0m6cWf576CR45bALfVOIfv) |
+
