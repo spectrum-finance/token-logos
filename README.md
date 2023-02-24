@@ -1,4 +1,4 @@
-# Asset icons for [app.spectrum.fi](https://app.spectrum.fi)
+# Token logos for [Spectrum Finance interface](https://app.spectrum.fi)
 Create pull request to add your token icon to all Spectrum user interfaces.
 
 ## Guide
