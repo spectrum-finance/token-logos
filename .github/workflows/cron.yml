@@ -1,0 +1,28 @@
+
+name: Update Folder via Cron
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  update-folder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          ref: master
+
+      - name: Update folder
+        run: |
+          yarn install
+          yarn build
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.email "admin@spectrumlabs.fi"
+          git config --global user.name "SpectrumLabsBot"
+          git add .
+          git commit -m "Cron: update cardano logos"
+          git push
