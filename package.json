@@ -1,0 +1,16 @@
+{
+  "name": "token-logos",
+  "version": "1.0.0",
+  "description": "Token logos storage for Spectrum Finance interface",
+  "main": "index.js",
+  "repository": "git@github.com:spectrum-finance/token-logos.git",
+  "author": "Spectrum Labs",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "yarn upgrade github:cardano-foundation/cardano-token-registry && node index.js"
+  },
+  "dependencies": {
+    "cardano-token-registry": "github:cardano-foundation/cardano-token-registry"
+  }
+}
