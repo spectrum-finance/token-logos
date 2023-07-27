@@ -2,6 +2,3 @@
 # yarn lockfile v1
 
 
-"cardano-token-registry@github:cardano-foundation/cardano-token-registry":
-  version "0.0.0"
-  resolved "https://codeload.github.com/cardano-foundation/cardano-token-registry/tar.gz/1d672410c500403fa6a9c8328cfdf55ff64ad07e"

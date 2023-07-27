@@ -1,0 +1,4 @@
+[submodule "cardano-token-registry"]
+	path = cardano-token-registry
+	url = https://github.com/cardano-foundation/cardano-token-registry
+	ignore = dirty

@@ -10,7 +10,5 @@
   "scripts": {
     "build": "yarn upgrade github:cardano-foundation/cardano-token-registry && node index.js"
   },
-  "dependencies": {
-    "cardano-token-registry": "github:cardano-foundation/cardano-token-registry"
-  }
+  "dependencies": {}
 }
