@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "yarn upgrade github:cardano-foundation/cardano-token-registry && node index.js"
+    "build": "node index.js"
   },
   "dependencies": {}
 }
