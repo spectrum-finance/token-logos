@@ -15,6 +15,7 @@ jobs:
         with:
           node-version: 14
       - run: |
+          git submodule update --init
           yarn install --frozen-lockfile
           yarn build
       - name: Publish The List
