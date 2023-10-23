@@ -1,28 +1,36 @@
-
-name: Update Folder via Cron
+name: Update Submodule
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '* * * * *'
 
 jobs:
-  update-folder:
+  update-submodule:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
+      - name: Check Out Repository
         uses: actions/checkout@v2
-        with:
-          ref: master
 
-      - name: Update folder
+      - name: Update Submodules
+        id: submodule_changes
         run: |
-          yarn install
-          yarn build
+          git submodule update --remote
+          if [[ -n $(git status --porcelain) ]]; then
+            echo "Submodule changes detected."
+            echo "::set-output name=changes::true"
+          else
+            echo "No submodule changes detected."
+            echo "::set-output name=changes::false"
+          fi
 
-      - name: Commit and push changes
+      - name: Commit and Push Changes
+        if: steps.submodule_changes.outputs.changes == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --global user.email "admin@spectrumlabs.fi"
-          git config --global user.name "SpectrumLabsBot"
+          git config user.name "Spectrum Labs Bot"
+          git config user.email "admin@spectrumlabs.fi"
           git add .
-          git commit -m "Cron: update cardano logos"
-          git push
+          git commit -m "Cron: Update Submodule"
+          git push --set-upstream origin $GITHUB_REF
