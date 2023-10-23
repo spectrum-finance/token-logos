@@ -1,0 +1,27 @@
+name: Deploy token list
+on:
+  push:
+    branches:
+      - "master"
+jobs:
+  release:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Load Repo
+        uses: actions/checkout@v3
+      - name: Build
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+      - run: |
+          yarn install --frozen-lockfile
+          yarn build
+      - name: Publish The List
+        uses: garygrossgarten/github-action-scp@release
+        with:
+          local: logos
+          remote: /var/www/logos/
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          privateKey: ${{ secrets.KEY }}
