@@ -15,7 +15,6 @@ jobs:
       - name: Update Submodules
         id: submodule_changes
         run: |
-          git submodule update --init
           git submodule update --remote
           if [[ -n $(git status --porcelain) ]]; then
             echo "Submodule changes detected."
